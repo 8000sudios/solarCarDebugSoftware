@@ -5,5 +5,8 @@ Requirments:
 
 COMMANDS:
 
-0x00 - Reqest information
-- Sends 0x00 to the arduino, arduino will then respond and we then print the results
+Commands are sent by sending the byte on the Serial then waiting a delay. After the delay the script reads everything in the Serial buffer.
+
+|Byte | Description      |
+|:---:|------------------|
+|0x00 |Requestions information from connected device|
