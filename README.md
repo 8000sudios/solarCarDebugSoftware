@@ -1,9 +1,9 @@
-Requirments:
+## Requirments:
 
 - Python 3
 - pySerial
 
-COMMANDS:
+## Commands:
 
 Commands are sent by sending the byte on the Serial then waiting a delay. After the delay the script reads everything in the Serial buffer.
 
