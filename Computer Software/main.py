@@ -3,7 +3,7 @@ import serial
 
 #Config for Serial
 baud = 9600
-port = '/dev/tty.usbserial-1410'
+port = '/dev/ttyS6'
 
 #Config
 rate = 4
