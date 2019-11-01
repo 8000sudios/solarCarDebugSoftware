@@ -27,4 +27,4 @@ def request(byte):
     #So the print result is a mix of raw hex and ascii
     print(message)
 
-request(b'\x00')
+request(b'\x00\x01\x02\x03\x04')

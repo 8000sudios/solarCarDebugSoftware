@@ -91,6 +91,26 @@ void SendInt(uint32_t i)
 		SendChar("0123456789ABCDEF"[(i >> (index*4)) & 0xFUL]);
 	}
 }
+
+/**
+ * Sends 8-bit unsigned integer through USART (with padded zeros)
+ * Number will be represented in hexadecimal.
+ * 
+ * @Param i: transmitted 8-bit unsigned integer
+ */
+void SendInt8(uint8_t i)
+{
+	int index;
+	
+	SendChar(0x30);
+	SendChar(0x58);
+	
+	for (index = 1; index >= 0; index--)
+	{
+		// Divide integer into half-bytes and send them separately
+		SendChar("0123456789ABCDEF"[(i >> (index*4)) & 0xFUL]);
+	}
+}
  
  /**
  * Sends a new line through USART

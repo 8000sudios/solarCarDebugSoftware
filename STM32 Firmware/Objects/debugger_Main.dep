@@ -1,5 +1,5 @@
 Dependencies for Project 'debugger', Target 'Main': (DO NOT MODIFY !)
-F (.\main.c)(0x5DBA8340)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Includes-I.\RTE\Device\STM32F103RB-I.\RTE\_Main-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x5DBB9942)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\Includes-I.\RTE\Device\STM32F103RB-I.\RTE\_Main-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58260B5C)
 I (.\RTE\_Main\RTE_Components.h)(0x5DB6968B)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2663A6)
@@ -8,10 +8,10 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2663A6)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2663A6)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58260B5C)
-I (.\Includes\CAN.h)(0x5DAB8387)
+I (.\Includes\CAN.h)(0x5DBB98DF)
 I (.\Includes\virtual_com.h)(0x5DAB8387)
 F (.\Includes\CAN.c)(0x5DAB8387)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103RB-I.\RTE\_Main-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD-o .\objects\can.o --omf_browse .\objects\can.crf --depend .\objects\can.d)
-I (Includes\CAN.h)(0x5DAB8387)
+I (Includes\CAN.h)(0x5DBB98DF)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58260B5C)
 I (.\RTE\_Main\RTE_Components.h)(0x5DB6968B)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D2663A6)
@@ -21,7 +21,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2663A6)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58260B5C)
 I (Includes\virtual_com.h)(0x5DAB8387)
-F (.\Includes\virtual_com.c)(0x5DBA8348)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103RB-I.\RTE\_Main-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD-o .\objects\virtual_com.o --omf_browse .\objects\virtual_com.crf --depend .\objects\virtual_com.d)
+F (.\Includes\virtual_com.c)(0x5DBB97CA)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103RB-I.\RTE\_Main-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD-o .\objects\virtual_com.o --omf_browse .\objects\virtual_com.crf --depend .\objects\virtual_com.d)
 I (Includes\virtual_com.h)(0x5DAB8387)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58260B5C)
 I (.\RTE\_Main\RTE_Components.h)(0x5DB6968B)
@@ -31,7 +31,7 @@ I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2663A6)
 I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2663A6)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58260B5C)
-F (.\Includes\CAN.h)(0x5DAB8387)()
+F (.\Includes\CAN.h)(0x5DBB98DF)()
 F (.\Includes\virtual_com.h)(0x5DAB8387)()
 F (RTE\Device\STM32F103RB\RTE_Device.h)(0x5928B296)()
 F (RTE\Device\STM32F103RB\startup_stm32f10x_md.s)(0x58260B5C)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\STM32F103RB-I.\RTE\_Main-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)

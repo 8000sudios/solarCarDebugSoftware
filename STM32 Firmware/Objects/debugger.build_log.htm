@@ -29,14 +29,17 @@ Project File Date:  10/30/2019
 Build target 'Main'
 compiling virtual_com.c...
 compiling main.c...
-main.c(12): warning:  #223-D: function "serAvailable" declared implicitly
-  	while(!serAvailable()) {
-main.c(19): warning:  #1-D: last line of file ends without a newline
+main.c(23): warning:  #223-D: function "SendInt8" declared implicitly
+  			SendInt8(CAN_rx_msg.data[i]);
+main.c(29): warning:  #1-D: last line of file ends without a newline
   }
-main.c: 2 warnings, 0 errors
+main.c(10): warning:  #177-D: variable "CAN_tx_msg"  was declared but never referenced
+  	CAN_msg_t CAN_tx_msg;
+main.c: 3 warnings, 0 errors
+compiling CAN.c...
 linking...
-Program Size: Code=1236 RO-data=272 RW-data=0 ZI-data=1632  
-".\Objects\debugger.axf" - 0 Error(s), 2 Warning(s).
+Program Size: Code=1576 RO-data=272 RW-data=0 ZI-data=1632  
+".\Objects\debugger.axf" - 0 Error(s), 3 Warning(s).
 
 <h2>Software Packages used:</h2>
 
