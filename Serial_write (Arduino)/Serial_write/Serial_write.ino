@@ -1,6 +1,7 @@
 byte msg[2] = {0x32, 0xFF};
 byte rByte;
 
+int i = 0;
 
 void setup() {
   Serial.begin(9600);
@@ -11,9 +12,11 @@ void setup() {
 
 void loop() {
   
-  while (Serial.available() == 0) {}
-  digitalWrite(13, LOW);
-  rByte = Serial.read();
-  Serial.write(msg, 2);
-   
+  //while (Serial.available() == 0) {}
+  //digitalWrite(13, LOW);
+  //rByte = Serial.read();
+  Serial.write("x\n");
+  i++;
+
+  delay(250);
 }

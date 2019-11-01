@@ -3,7 +3,9 @@ import serial
 
 #Config for Serial
 baud = 9600
-port = '/dev/ttyS6'
+#port = '/dev/ttyS6'
+port = '/dev/tty.usbserial-1410'
+#port = input("Enter COM port: ");
 
 #Config
 rate = 4
@@ -27,4 +29,11 @@ def request(byte):
     #So the print result is a mix of raw hex and ascii
     print(message)
 
-request(b'\x00\x01\x02\x03\x04')
+def monitorCOM():
+    message = ser.readline()
+
+    print(message)
+
+
+while(1):
+    monitorCOM()
