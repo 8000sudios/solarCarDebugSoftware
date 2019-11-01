@@ -1,0 +1,4 @@
+*.uvguix.*
+*.uvoptx
+STM32 Firmware/Listings/*
+STM32 Firmware/Objects/*
