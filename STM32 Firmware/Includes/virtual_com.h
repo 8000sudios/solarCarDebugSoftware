@@ -46,6 +46,14 @@ void SendChar(char c);
 void SendInt(uint32_t i);
 
 /**
+ * Sends 8-bit unsigned integer through USART (with padded zeros)
+ * Number will be represented in hexadecimal.
+ * 
+ * @Param i: transmitted 8-bit unsigned integer
+ */
+void SendInt8(uint8_t i);
+
+/**
  * Sends a new line through USART
  */
 void SendLine(void);
