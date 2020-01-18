@@ -81,10 +81,7 @@ void SendChar(char c)
 void SendInt(uint32_t i)
 {
 	int index;
-	
-	SendChar(0x30);
-	SendChar(0x58);
-	
+
 	for (index = 7; index >= 0; index--)
 	{
 		// Divide integer into half-bytes and send them separately
@@ -101,9 +98,6 @@ void SendInt(uint32_t i)
 void SendInt8(uint8_t i)
 {
 	int index;
-	
-	SendChar(0x30);
-	SendChar(0x58);
 	
 	for (index = 1; index >= 0; index--)
 	{
